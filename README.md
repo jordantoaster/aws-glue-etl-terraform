@@ -4,13 +4,20 @@ Tools
 * Github
 * Terraform
 * Python
-* Glue
+* AWS Lambda
 * S3 (Two buckets)
 
-Requirements
+TODO
 * Use AWS Glue to read data from S3, transform and put into another S3 bucket.
 * Automated Testing Github Actions.
 * CI Github Actions
 * Testing for Terraform.
 * Testing for Python transform.
 * Integration Testing of components.
+* Access Policies
+* Triggers
+* IAM X
+* AWS configure setup X
+* venv
+
+
