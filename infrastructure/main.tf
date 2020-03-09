@@ -49,8 +49,8 @@ resource "aws_iam_role_policy" "my_s3_policy" {
         "s3:*"
       ],
       "Resource": [
-        "arn:aws:s3:::my_bucket",
-        "arn:aws:s3:::my_bucket/*"
+        "arn:aws:s3:::jm-etl-incoming-data",
+        "arn:aws:s3:::jm-etl-incoming-data/*"
       ]
     }
   ]
